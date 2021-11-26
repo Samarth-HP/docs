@@ -5,13 +5,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (
   module.exports = {
-    title: "My Site",
-    tagline: "Dinosaurs are cool",
+    title: "Sammarth Docs",
+    tagline: "Samagra Governanace",
     url: "https://samarth-hp.github.io/docs",
     baseUrl: "/docs/",
     onBrokenLinks: "warn",
     onBrokenMarkdownLinks: "warn",
-    favicon: "img/favicon.ico",
+    favicon: "img/favicon.png",
     organizationName: "Samarth-HP", // Usually your GitHub org/user name.
     projectName: "docs", // Usually your repo name.
 
@@ -24,14 +24,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
             sidebarPath: require.resolve("./sidebars.js"),
             // Please change this to your repo.
             editUrl:
-              "https://github.com/facebook/docusaurus/edit/main/website/",
+              "https://github.com/Samarth-HP/docs",
             remarkPlugins: [require('mdx-mermaid')]
           },
           blog: {
             showReadingTime: true,
             // Please change this to your repo.
             editUrl:
-              "https://github.com/facebook/docusaurus/edit/main/website/blog/",
+              "https://github.com/Samarth-HP/docs",
           },
           theme: {
             customCss: require.resolve("./src/css/custom.css"),
@@ -44,21 +44,21 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         navbar: {
-          title: "My Site",
+          title: "Samagra Docs",
           logo: {
             alt: "My Site Logo",
-            src: "img/logo.svg",
+            src: "img/logo.png",
           },
           items: [
             {
               type: "doc",
               docId: "intro",
               position: "left",
-              label: "Tutorial",
+              label: "Docs",
             },
             { to: "/blog", label: "Blog", position: "left" },
             {
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/Samarth-HP/docs",
               label: "GitHub",
               position: "right",
             },
@@ -72,7 +72,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
               items: [
                 {
                   label: "Tutorial",
-                  to: "/docs/intro",
+                  to: "/docs/mermaid",
                 },
               ],
             },
