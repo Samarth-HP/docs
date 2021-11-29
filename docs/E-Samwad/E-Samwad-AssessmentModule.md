@@ -658,6 +658,8 @@ RESPONSE |
 
 > [_Esamwad Backend Repo_](https://github.com/Samarth-HP/esamwad-backend)
 
-
+## 8. Bussiness Logics
+   
+   Coming Soon...
 
 
