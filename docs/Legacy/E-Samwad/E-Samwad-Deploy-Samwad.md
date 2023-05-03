@@ -91,8 +91,8 @@ All this can be done using the `docker-compose.yml` file which can be found [her
 
 This module will allow us to download and show the forms configured in the Firebase above.
 
-1. [Setting form list button](/docs/FormManagementModule)
-2. [Setting up the submission screen](/docs/FormManagementModule)
+1. [Setting form list button](/docs/Legacy/E-Samwad/FormManagementModule)
+2. [Setting up the submission screen](/docs/Legacy/E-Samwad/FormManagementModule)
 
 ### 2. Setting up the student list download module
 

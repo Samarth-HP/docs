@@ -1,0 +1,30 @@
+{
+  "unversionedId": "Legacy/E-Samwad/deploysamwad",
+  "id": "Legacy/E-Samwad/deploysamwad",
+  "title": "Deploy Your Own Samwad",
+  "description": "1. Overview",
+  "source": "@site/docs/Legacy/E-Samwad/E-Samwad-Deploy-Samwad.md",
+  "sourceDirName": "Legacy/E-Samwad",
+  "slug": "/Legacy/E-Samwad/deploysamwad",
+  "permalink": "/docs/Legacy/E-Samwad/deploysamwad",
+  "draft": false,
+  "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/Legacy/E-Samwad/E-Samwad-Deploy-Samwad.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "deploysamwad",
+    "title": "Deploy Your Own Samwad",
+    "sidebar_label": "Deploy Samwad",
+    "sidebar_position": 4
+  },
+  "sidebar": "overview",
+  "previous": {
+    "title": "Assessment Module",
+    "permalink": "/docs/Legacy/E-Samwad/assessmentmodule"
+  },
+  "next": {
+    "title": "Docusaurus Introduction",
+    "permalink": "/docs/Legacy/mermaid"
+  }
+}

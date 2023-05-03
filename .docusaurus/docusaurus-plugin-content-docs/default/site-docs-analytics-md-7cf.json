@@ -1,0 +1,29 @@
+{
+  "unversionedId": "analytics",
+  "id": "analytics",
+  "title": "Samarth - Analytics",
+  "description": "Introduction",
+  "source": "@site/docs/analytics.md",
+  "sourceDirName": ".",
+  "slug": "/analytics",
+  "permalink": "/docs/analytics",
+  "draft": false,
+  "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/analytics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Samarth - Analytics",
+    "sidebar_position": 6,
+    "sidebar_label": "Analytics"
+  },
+  "sidebar": "overview",
+  "previous": {
+    "title": "Deployment",
+    "permalink": "/docs/deployment"
+  },
+  "next": {
+    "title": "Monitoring",
+    "permalink": "/docs/monitoring"
+  }
+}

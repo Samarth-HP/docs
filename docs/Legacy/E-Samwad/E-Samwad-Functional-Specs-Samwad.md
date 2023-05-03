@@ -225,7 +225,7 @@ Samwad SMS - For school teachers to send an SMS the teachers will have to fill a
 
 These basic forms can are configured using [Open Data Kit](https://opendatakit.org). The Open Data Kit software is an open source software that allows for collecting, managing, and using data in resource-constrained environments. It allows for the collection of data offline and submission of the data when internet connectivity is available. It allows users to aggregate data with full control over the collected data and the servers where this data is stored.
 
-A pre-requisite for configuring and updating the forms in your application is to [setup](deploysamwad.md) the Samwad application.
+A pre-requisite for configuring and updating the forms in your application is to [setup](/docs/Legacy/E-Samwad/deploysamwad) the Samwad application.
 
 A summary of the steps to create a data collection form using ODK has been provided below.
 

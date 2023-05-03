@@ -1,0 +1,29 @@
+{
+  "unversionedId": "deployment",
+  "id": "deployment",
+  "title": "Samarth - Deployment",
+  "description": "DevOps for Samarth",
+  "source": "@site/docs/deployment.md",
+  "sourceDirName": ".",
+  "slug": "/deployment",
+  "permalink": "/docs/deployment",
+  "draft": false,
+  "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/deployment.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Samarth - Deployment",
+    "sidebar_position": 5,
+    "sidebar_label": "Deployment"
+  },
+  "sidebar": "overview",
+  "previous": {
+    "title": "Android Apps",
+    "permalink": "/docs/android"
+  },
+  "next": {
+    "title": "Analytics",
+    "permalink": "/docs/analytics"
+  }
+}

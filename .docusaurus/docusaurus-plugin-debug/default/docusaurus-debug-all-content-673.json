@@ -1,0 +1,541 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs/",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs",
+          "editUrlLocalized": "https://github.com/Samarth-HP/docs/tree/master/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/yuvraj/code/samarth-docs/sidebars.js",
+          "contentPath": "/home/yuvraj/code/samarth-docs/docs",
+          "contentPathLocalized": "/home/yuvraj/code/samarth-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "admin-panel",
+              "id": "admin-panel",
+              "title": "Samarth - Admin Panel",
+              "description": "{",
+              "source": "@site/docs/admin-panel.md",
+              "sourceDirName": ".",
+              "slug": "/admin-panel",
+              "permalink": "/docs/admin-panel",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/admin-panel.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Samarth - Admin Panel",
+                "sidebar_position": 3,
+                "sidebar_label": "Admin Panel"
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Backend",
+                "permalink": "/docs/backend"
+              },
+              "next": {
+                "title": "Android Apps",
+                "permalink": "/docs/android"
+              }
+            },
+            {
+              "unversionedId": "analytics",
+              "id": "analytics",
+              "title": "Samarth - Analytics",
+              "description": "Introduction",
+              "source": "@site/docs/analytics.md",
+              "sourceDirName": ".",
+              "slug": "/analytics",
+              "permalink": "/docs/analytics",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/analytics.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "title": "Samarth - Analytics",
+                "sidebar_position": 6,
+                "sidebar_label": "Analytics"
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Deployment",
+                "permalink": "/docs/deployment"
+              },
+              "next": {
+                "title": "Monitoring",
+                "permalink": "/docs/monitoring"
+              }
+            },
+            {
+              "unversionedId": "android",
+              "id": "android",
+              "title": "Samarth - Android App",
+              "description": "{",
+              "source": "@site/docs/android.md",
+              "sourceDirName": ".",
+              "slug": "/android",
+              "permalink": "/docs/android",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/android.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Samarth - Android App",
+                "sidebar_position": 4,
+                "sidebar_label": "Android Apps"
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Admin Panel",
+                "permalink": "/docs/admin-panel"
+              },
+              "next": {
+                "title": "Deployment",
+                "permalink": "/docs/deployment"
+              }
+            },
+            {
+              "unversionedId": "backend",
+              "id": "backend",
+              "title": "Samarth - Backend",
+              "description": "{",
+              "source": "@site/docs/backend.md",
+              "sourceDirName": ".",
+              "slug": "/backend",
+              "permalink": "/docs/backend",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/backend.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Samarth - Backend",
+                "sidebar_position": 2,
+                "sidebar_label": "Backend"
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Program Overview",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Admin Panel",
+                "permalink": "/docs/admin-panel"
+              }
+            },
+            {
+              "unversionedId": "crash-reporting",
+              "id": "crash-reporting",
+              "title": "Samarth - Crash Reporting",
+              "description": "Need",
+              "source": "@site/docs/crash-reporting.md",
+              "sourceDirName": ".",
+              "slug": "/crash-reporting",
+              "permalink": "/docs/crash-reporting",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/crash-reporting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "title": "Samarth - Crash Reporting",
+                "sidebar_position": 8,
+                "sidebar_label": "Crash Reporting"
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Monitoring",
+                "permalink": "/docs/monitoring"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/Legacy/intro"
+              }
+            },
+            {
+              "unversionedId": "deployment",
+              "id": "deployment",
+              "title": "Samarth - Deployment",
+              "description": "DevOps for Samarth",
+              "source": "@site/docs/deployment.md",
+              "sourceDirName": ".",
+              "slug": "/deployment",
+              "permalink": "/docs/deployment",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/deployment.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Samarth - Deployment",
+                "sidebar_position": 5,
+                "sidebar_label": "Deployment"
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Android Apps",
+                "permalink": "/docs/android"
+              },
+              "next": {
+                "title": "Analytics",
+                "permalink": "/docs/analytics"
+              }
+            },
+            {
+              "unversionedId": "Legacy/E-Samwad/assessmentmodule",
+              "id": "Legacy/E-Samwad/assessmentmodule",
+              "title": "Assessment Module",
+              "description": "1.Overview",
+              "source": "@site/docs/Legacy/E-Samwad/E-Samwad-AssessmentModule.md",
+              "sourceDirName": "Legacy/E-Samwad",
+              "slug": "/Legacy/E-Samwad/assessmentmodule",
+              "permalink": "/docs/Legacy/E-Samwad/assessmentmodule",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/Legacy/E-Samwad/E-Samwad-AssessmentModule.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "assessmentmodule",
+                "title": "Assessment Module",
+                "sidebar_label": "Assessment Module",
+                "sidebar_position": 3
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Samwad - Functional Specifications",
+                "permalink": "/docs/Legacy/E-Samwad/SamwadFuncSpecs"
+              },
+              "next": {
+                "title": "Deploy Samwad",
+                "permalink": "/docs/Legacy/E-Samwad/deploysamwad"
+              }
+            },
+            {
+              "unversionedId": "Legacy/E-Samwad/deploysamwad",
+              "id": "Legacy/E-Samwad/deploysamwad",
+              "title": "Deploy Your Own Samwad",
+              "description": "1. Overview",
+              "source": "@site/docs/Legacy/E-Samwad/E-Samwad-Deploy-Samwad.md",
+              "sourceDirName": "Legacy/E-Samwad",
+              "slug": "/Legacy/E-Samwad/deploysamwad",
+              "permalink": "/docs/Legacy/E-Samwad/deploysamwad",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/Legacy/E-Samwad/E-Samwad-Deploy-Samwad.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "deploysamwad",
+                "title": "Deploy Your Own Samwad",
+                "sidebar_label": "Deploy Samwad",
+                "sidebar_position": 4
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Assessment Module",
+                "permalink": "/docs/Legacy/E-Samwad/assessmentmodule"
+              },
+              "next": {
+                "title": "Docusaurus Introduction",
+                "permalink": "/docs/Legacy/mermaid"
+              }
+            },
+            {
+              "unversionedId": "Legacy/E-Samwad/ESamwadOverview",
+              "id": "Legacy/E-Samwad/ESamwadOverview",
+              "title": "E-Samwad Overview",
+              "description": "E-Samwad was launched for the State Education Department in Himachal Pradesh to facilitate personalized SMS-based communication between parents and teachers. These SMS can be sent in a decentralized manner by government school teachers for sharing daily attendance, homework status, exam results, notifications for holidays with the parents. e-Samwad has been used by 7,828 schools in the state to reach out to 80,636 parents, sending out 1.3 lakh messages. Once schools reopen, all 15,000+ schools in HP are expected to start using e-Samwad.",
+              "source": "@site/docs/Legacy/E-Samwad/E-Samwad-Overview.md",
+              "sourceDirName": "Legacy/E-Samwad",
+              "slug": "/Legacy/E-Samwad/ESamwadOverview",
+              "permalink": "/docs/Legacy/E-Samwad/ESamwadOverview",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/Legacy/E-Samwad/E-Samwad-Overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "ESamwadOverview",
+                "title": "E-Samwad Overview",
+                "sidebar_label": "E-Samwad Overview",
+                "sidebar_position": 1
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/Legacy/intro"
+              },
+              "next": {
+                "title": "Samwad - Functional Specifications",
+                "permalink": "/docs/Legacy/E-Samwad/SamwadFuncSpecs"
+              }
+            },
+            {
+              "unversionedId": "Legacy/E-Samwad/SamwadFuncSpecs",
+              "id": "Legacy/E-Samwad/SamwadFuncSpecs",
+              "title": "Samwad - Functional Specifications",
+              "description": "Licence",
+              "source": "@site/docs/Legacy/E-Samwad/E-Samwad-Functional-Specs-Samwad.md",
+              "sourceDirName": "Legacy/E-Samwad",
+              "slug": "/Legacy/E-Samwad/SamwadFuncSpecs",
+              "permalink": "/docs/Legacy/E-Samwad/SamwadFuncSpecs",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/Legacy/E-Samwad/E-Samwad-Functional-Specs-Samwad.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "SamwadFuncSpecs",
+                "title": "Samwad - Functional Specifications",
+                "sidebar_label": "Samwad - Functional Specifications",
+                "sidebar_position": 2
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "E-Samwad Overview",
+                "permalink": "/docs/Legacy/E-Samwad/ESamwadOverview"
+              },
+              "next": {
+                "title": "Assessment Module",
+                "permalink": "/docs/Legacy/E-Samwad/assessmentmodule"
+              }
+            },
+            {
+              "unversionedId": "Legacy/intro",
+              "id": "Legacy/intro",
+              "title": "Overview",
+              "description": "Licence",
+              "source": "@site/docs/Legacy/intro copy.md",
+              "sourceDirName": "Legacy",
+              "slug": "/Legacy/intro",
+              "permalink": "/docs/Legacy/intro",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/Legacy/intro copy.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "intro",
+                "title": "Overview",
+                "sidebar_label": "Overview",
+                "sidebar_position": 1
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Crash Reporting",
+                "permalink": "/docs/crash-reporting"
+              },
+              "next": {
+                "title": "E-Samwad Overview",
+                "permalink": "/docs/Legacy/E-Samwad/ESamwadOverview"
+              }
+            },
+            {
+              "unversionedId": "Legacy/mermaid",
+              "id": "Legacy/mermaid",
+              "title": "Docusaurus Introduction",
+              "description": "Mermaid Testing",
+              "source": "@site/docs/Legacy/mermaid.md",
+              "sourceDirName": "Legacy",
+              "slug": "/Legacy/mermaid",
+              "permalink": "/docs/Legacy/mermaid",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/Legacy/mermaid.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "mermaid",
+                "title": "Docusaurus Introduction",
+                "sidebar_label": "Docusaurus Introduction",
+                "sidebar_position": 3
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Deploy Samwad",
+                "permalink": "/docs/Legacy/E-Samwad/deploysamwad"
+              }
+            },
+            {
+              "unversionedId": "monitoring",
+              "id": "monitoring",
+              "title": "Samarth - Monitoring",
+              "description": "Need",
+              "source": "@site/docs/monitoring.md",
+              "sourceDirName": ".",
+              "slug": "/monitoring",
+              "permalink": "/docs/monitoring",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/monitoring.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "title": "Samarth - Monitoring",
+                "sidebar_position": 7,
+                "sidebar_label": "Monitoring"
+              },
+              "sidebar": "overview",
+              "previous": {
+                "title": "Analytics",
+                "permalink": "/docs/analytics"
+              },
+              "next": {
+                "title": "Crash Reporting",
+                "permalink": "/docs/crash-reporting"
+              }
+            },
+            {
+              "unversionedId": "overview",
+              "id": "overview",
+              "title": "Program Overview",
+              "description": "Samarth",
+              "source": "@site/docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "draft": false,
+              "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "overview",
+                "title": "Program Overview",
+                "sidebar_label": "Program Overview",
+                "sidebar_position": 1
+              },
+              "sidebar": "overview",
+              "next": {
+                "title": "Backend",
+                "permalink": "/docs/backend"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "overview": [
+              {
+                "type": "doc",
+                "id": "overview",
+                "label": "Program Overview"
+              },
+              {
+                "type": "doc",
+                "id": "backend",
+                "label": "Backend"
+              },
+              {
+                "type": "doc",
+                "id": "admin-panel",
+                "label": "Admin Panel"
+              },
+              {
+                "type": "doc",
+                "id": "android",
+                "label": "Android Apps"
+              },
+              {
+                "type": "doc",
+                "id": "deployment",
+                "label": "Deployment"
+              },
+              {
+                "type": "doc",
+                "id": "analytics",
+                "label": "Analytics"
+              },
+              {
+                "type": "doc",
+                "id": "monitoring",
+                "label": "Monitoring"
+              },
+              {
+                "type": "doc",
+                "id": "crash-reporting",
+                "label": "Crash Reporting"
+              },
+              {
+                "type": "category",
+                "label": "Legacy",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Legacy/intro",
+                    "label": "Overview"
+                  },
+                  {
+                    "type": "category",
+                    "label": "E-Samwad Docs",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Legacy/E-Samwad/ESamwadOverview",
+                        "label": "E-Samwad Overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Legacy/E-Samwad/SamwadFuncSpecs",
+                        "label": "Samwad - Functional Specifications"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Legacy/E-Samwad/assessmentmodule",
+                        "label": "Assessment Module"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Legacy/E-Samwad/deploysamwad",
+                        "label": "Deploy Samwad"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Legacy/mermaid",
+                    "label": "Docusaurus Introduction"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/docs/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "admin-panel",
+  "id": "admin-panel",
+  "title": "Samarth - Admin Panel",
+  "description": "{",
+  "source": "@site/docs/admin-panel.md",
+  "sourceDirName": ".",
+  "slug": "/admin-panel",
+  "permalink": "/docs/admin-panel",
+  "draft": false,
+  "editUrl": "https://github.com/Samarth-HP/docs/tree/master/docs/admin-panel.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Samarth - Admin Panel",
+    "sidebar_position": 3,
+    "sidebar_label": "Admin Panel"
+  },
+  "sidebar": "overview",
+  "previous": {
+    "title": "Backend",
+    "permalink": "/docs/backend"
+  },
+  "next": {
+    "title": "Android Apps",
+    "permalink": "/docs/android"
+  }
+}
