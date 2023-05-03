@@ -5,7 +5,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (
   module.exports = {
-    title: "Sammarth Docs",
+    title: "Samarth Docs",
     tagline: "Samagra Governanace",
     url: "https://samarth-hp.github.io/docs",
     baseUrl: "/docs/",
@@ -52,7 +52,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
           items: [
             {
               type: "doc",
-              docId: "intro",
+              docId: "overview",
               position: "left",
               label: "Docs",
             },
