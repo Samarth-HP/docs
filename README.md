@@ -1,4 +1,10 @@
-# Website
+
+# Samarth
+Samarth - Himachal Pradesh is a program to facilitate education in the state of Himachal Pradesh, India in a decentralized manner. Decentralization is key to empower teacher and state officials at various levels i.e, state, district, block and cluster.
+
+More About the program here: https://samarth-hp.github.io/docs/
+
+## Contribution
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
