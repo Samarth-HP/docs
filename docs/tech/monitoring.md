@@ -66,11 +66,10 @@ We have setup alerting to let us know when:
 
 * A system is above 80% load
 * A system is low on memory
-* Response times are above a threshold
-* A container is offline / killed
+* A service goes down
 
 These alerts are linked to our communication channels where devs can proactively check and fix
-issues rather than having to monitor the grafana dashboard constantly.z
+issues rather than having to monitor the grafana dashboard constantly.
 
 ## Benefits
 
