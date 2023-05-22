@@ -6,7 +6,7 @@ sidebar_label: System Overview
 ---
 
 The Samarth systems consists of:
-* 2 frontend systems as Android apps
+* 3 frontend systems as Android apps
 * A singular backend to serve both frontends
 * A singular admin console to configure the backend's behavior for the frontends.
 
