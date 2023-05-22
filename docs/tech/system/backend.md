@@ -12,13 +12,32 @@ Database structure
 
 
 ## Introduction
-The backend system consists of mainly the REST APIs written in Python Django framework to power Esamwad Application. It internally uses User Service, Yaus, Doc Generator, Templator, ODK Aggregate, etc. as the core building blocks (open source & build by Samagra). It also uses various open source 3rd party tools like Hasura, Posthog, Sentry, Fusion Auth, Grafana, Vault, etc.
+The backend system consists of mainly the REST APIs written in Python Django framework to power 
+Esamwad, Shiksha Saathi & NLA for Parents Application. It internally uses User Service, Yaus, 
+Doc Generator, Templator, ODK Aggregate, etc. as the core building blocks (open source & built 
+by Samagra). It also uses various open source 3rd party tools like Hasura, Posthog, Sentry, Fusion 
+Auth, Grafana, Vault, Airflow etc.
+
+A brief overview of all the services is shown below:
 
 ![System Overview](../../../static/img/samarth-hp-backend-Services.jpg)
 
 ## Repos
+- Esamwad Backend: https://github.com/Samarth-HP/esamwad-backend
+- User Service: https://github.com/Samagra-Development/user-service
+- Yaus: https://github.com/Samagra-Development/yaus
+- Doc Generator: https://github.com/Samagra-Development/Doc-Generator
+- Templater: https://github.com/Samagra-Development/templater
+- ODK: https://github.com/samagra-comms/odk
+- ODK UCI Adapter: https://github.com/Samarth-HP/odk-uci-adapter
+- Posthog: https://github.com/Samagra-Development/posthog-deploy
+- Airflow: https://github.com/Samagra-Development/airflow
 
 ## Important modules
+- Assessment Module
+- Student Enrollment Module
+- SLC Module
+- SMS Module
 
 ### Implementation
 
