@@ -39,5 +39,33 @@ A brief overview of all the services is shown below:
 - SLC Module
 - SMS Module
 
-### Implementation
+## Implementation
+### Assessment Module
 
+### Student Enrollment Module
+
+### SLC Module
+
+### SMS Module
+SMS Module is responsible for sending SMS to parents for various events e.g.
+- School Holidays
+- Parents Meeting
+- Exam Announcement
+- Result Announcement
+- Homework
+
+Form templates are stored on ODK server. Application fetches forms from ODK
+and teachers can choose to send SMS from the list of templates.
+When the form is submitted, an insertion is made into Hasura table, which then
+triggers a webhook to **SMS Adapter Nest Application**.
+The **Nest Application** is responsible for:
+1. Receiving Requests & queue them.
+2. Workers then picks the jobs in a sequential manner.
+3. Based on template & business logic, receiver's information is grabbed from
+Esamwad Database.
+4. Finally, SMS are sent to CDAC Service provider, which then actually delivers the SMSes.
+
+Nest Application also keeps a track on the progress of the queued jobs & SMS sending failures.
+
+A high level diagram of the flow is shown below:
+![SMS Module](../../../static/img/samarth-hp-backend-SMS-Adapter.png)
