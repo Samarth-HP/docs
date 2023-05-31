@@ -43,6 +43,12 @@ A brief overview of all the services is shown below:
 ### Assessment Module
 
 ### Student Enrollment Module
+This module has 2 parts:
+1. New Student Registration: when a student enrolled as entirely new student. 
+2. School Transfer (within State): when a student is transferred from another school within the state.
+3. School Transfer (Other States): when a student is transferred from a school from other state.
+
+![Student Enrollment Module](../../../static/img/samarth-hp-backend-Student-Enrollment.png)
 
 ### SLC Module
 
