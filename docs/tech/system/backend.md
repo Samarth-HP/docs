@@ -51,6 +51,11 @@ This module has 2 parts:
 ![Student Enrollment Module](../../../static/img/samarth-hp-backend-Student-Enrollment.png)
 
 ### SLC Module
+App requests to remove student from the school. Backend generates an School Leaving
+Certificate along with a QR code, which can then be used to transfer student within
+the state under **Student Enrollment Module**.
+
+![SLC Module](../../../static/img/samarth-hp-backend-SLC-Module.png)
 
 ### SMS Module
 SMS Module is responsible for sending SMS to parents for various events e.g.
