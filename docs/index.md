@@ -4,7 +4,6 @@ Samarth - Himachal Pradesh is a program to facilitate education in the state of 
 India in a decentralized manner. Decentralization is key to empower teacher and state officials at
 various levels i.e, state, district, block and cluster.
 
-More About the program here: https://samarth-hp.github.io/docs/
 
 ## Technical Elements
 
@@ -14,6 +13,9 @@ More About the program here: https://samarth-hp.github.io/docs/
 * esamwad Backend
 
 ### e-Samwad Android Application
+
+![WhatsApp Image 2023-06-07 at 1 38 02 PM](https://github.com/Samarth-HP/docs/assets/111346170/a729abb2-1162-4cbb-9076-263a625dc75e)
+
 
 The [e-Samwad Android Application](https://play.google.com/store/apps/details?id=com.himachal.android.eSamwad)
 is a teacher facing intervention. Which helps teacher in
@@ -32,6 +34,9 @@ app talks to our backend services for authentication & other management tasks.
 Repository: https://github.com/Samarth-HP/eSamwad-app
 
 ### Shiksha Saathi Android Application
+
+![WhatsApp Image 2023-06-07 at 1 38 02 PM (1)](https://github.com/Samarth-HP/docs/assets/111346170/43bde72b-53e3-4edb-8d08-45df69447519)
+
 
 The [Shiksha Saathi Android Application](https://play.google.com/store/apps/details?id=com.samagra.shikshaSaathi)
 is a mentor facing intervention. At its core its a data collection application to facilitate the
