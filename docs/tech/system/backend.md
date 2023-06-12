@@ -72,7 +72,7 @@ and TSP outcome.
 
 #### Assessment Creation
 
-An assessment creation starts by filling out an Enketo form http://139.59.94.126:8005/::bS6kWwto, 
+An assessment creation starts by filling out an [Enketo form](../../../static/samarth-assessment-enketo-form.xml), 
 which on submission to ODK Aggregate returns an XML. This XML is fed to parseForm API 
 (`POST /api/v4/form/submit`) which actually creates an assessment for the combination in our main 
 Postgres Database.
