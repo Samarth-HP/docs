@@ -10,7 +10,7 @@ The Samarth systems consists of:
 * A singular backend to serve both frontends
 * A singular admin console to configure the backend's behavior for the frontends.
 
-![System Overview](../../../static/img/Samarth-SystemDiagram.png)
+![System Overview](../../../static/img/Overview w:oo NLA.jpg)
 
 Above diagram defines how the different elements work together. 
 
