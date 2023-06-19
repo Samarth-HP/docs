@@ -4,12 +4,6 @@ sidebar_position: 3
 sidebar_label: Backend
 ---
 
-{
-Go into details of each service
-Create diagram of their interaction
-Database structure
-}
-
 ## Introduction
 
 The backend system consists of mainly the REST APIs written in Python Django framework to power
@@ -74,7 +68,7 @@ and TSP outcome.
 
 An assessment creation starts by filling out an [Enketo form](../../../static/samarth-assessment-enketo-form.xml), 
 which on submission to ODK Aggregate returns an XML. This XML is fed to parseForm API 
-(`POST /api/v4/form/submit`) which actually creates an assessment for the combination in our main 
+[`POST /api/v4/form/submit`](https://github.com/Samarth-HP/esamwad-backend/blob/master/app/server/urls.py#L85) which actually creates an assessment for the combination in our main 
 Postgres Database.
 
 The backend maintains two levels of caching: one in Redis, which is extremely fast, and the other 
@@ -86,9 +80,9 @@ Redis isn’t available. On each CRUD operation, we clear the cache at both leve
 #### Assessment Listing
 
 When the user opens the homepage of the E-samwad Android app it hits the getAllAssessments API 
-(`GET /api/v5/assessment/all/`) for fetching all the assessments available for the school along with
-their submissions using getStudentSubmissionData API (`GET /api/v5/assessment/submission/student/`)
-and getClassSubmissionData API (`GET /api/v5/assessment/submission/class/`).
+[`GET /api/v5/assessment/all/`](https://github.com/Samarth-HP/esamwad-backend/blob/master/app/server/v5/urls.py#L25) for fetching all the assessments available for the school along with
+their submissions using getStudentSubmissionData API [`GET /api/v5/assessment/submission/student/`](https://github.com/Samarth-HP/esamwad-backend/blob/master/app/server/v5/urls.py#L29)
+and getClassSubmissionData API [`GET /api/v5/assessment/submission/class/`](https://github.com/Samarth-HP/esamwad-backend/blob/master/app/server/v5/urls.py#L30).
 
 User requests go to the backend then the backend finds data in the Redis cache if it didn’t find there
 then it goes to the Database cache if still assessments are not present there then at last it pulls from
@@ -101,8 +95,10 @@ calls.
 #### Assessment Submissions
 
 When the teacher fills in the marks for the assessment then from the Android we hit saveStudentSubmission
-API (`POST /api/v5/assessment/submission/student/`) if it was a student-level assessment or 
-saveClassSubmission API (`POST /api/v5/assessment/submission/class/`) if it was a class-level assessment.
+API [`POST /api/v5/assessment/submission/student/`](https://github.com/Samarth-HP/esamwad-backend/blob/master/app/server/v5/urls.py#L29) 
+if it was a student-level assessment or 
+saveClassSubmission API [`POST /api/v5/assessment/submission/class/`](https://github.com/Samarth-HP/esamwad-backend/blob/master/app/server/v5/urls.py#L30) 
+if it was a class-level assessment.
 After successful submission, the cache gets automatically refreshed for the given assessment for further 
 API calls to respond faster.
 
@@ -118,6 +114,11 @@ This module has 2 parts:
 
 ![Student Enrollment Module](../../../static/img/samarth-hp-backend-Student-Enrollment.png)
 
+References:
+- `POST /api/v5/student/`: https://github.com/Samarth-HP/esamwad-backend/blob/master/app/server/v5/urls.py#L41
+- `POST /api/v5/vc/verify`: https://github.com/Samarth-HP/esamwad-backend/blob/master/app/server/v5/urls.py#L40
+- `GET /api/v5/student/$vcId`: https://github.com/Samarth-HP/esamwad-backend/blob/master/app/server/v5/urls.py#L38
+
 ### SLC Module
 
 App requests to remove student from the school. Backend generates an School Leaving
@@ -125,6 +126,9 @@ Certificate along with a QR code, which can then be used to transfer student wit
 the state under **Student Enrollment Module**.
 
 ![SLC Module](../../../static/img/samarth-hp-backend-SLC-Module.png)
+
+References:
+- `POST /api/v5/student/transfer/$studentId`: https://github.com/Samarth-HP/esamwad-backend/blob/master/app/server/v5/urls.py#L39
 
 ### SMS Module
 
@@ -152,3 +156,5 @@ Nest Application also keeps a track on the progress of the queued jobs & SMS sen
 
 A high level diagram of the flow is shown below:
 ![SMS Module](../../../static/img/samarth-hp-backend-SMS-Adapter.png)
+
+Refer: https://github.com/Samarth-HP/odk-uci-adapter
