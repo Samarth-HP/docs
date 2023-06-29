@@ -10,7 +10,7 @@ The Admin Panel is designed to streamline and simplify the management of multipl
 
 It provides a user-friendly interface and powerful features, with the help of which administrators can effortlessly navigate and oversee these vital components, ensuring smooth operations and seamless communication.
 
-<img width="1680" alt="Admin Panel Login" src="https://github.com/Samarth-HP/admin-ts/assets/46066481/5900edf2-e141-4948-9613-10810cfb8d16">
+<img width="1680" alt="Admin Panel Login" src="https://github.com/Samarth-HP/admin-ts/assets/46066481/5900edf2-e141-4948-9613-10810cfb8d16" />
 
 
 ## Need
@@ -83,5 +83,5 @@ Currently Admin Panel supports 7 different tabs namely
 - Location 
 - Grade Assessment
 
-Each providing an interface to view data related to each of the respective tabs, modifying them, removing them as well as creating new entries along with the features mentioned in the <b>Features</b> section
+Each providing an interface to view data related to each of the respective tabs, modifying them, removing them as well as creating new entries along with the features mentioned in the Features section
 
