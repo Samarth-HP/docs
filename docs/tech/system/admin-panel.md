@@ -75,13 +75,13 @@ https://github.com/Samarth-HP/admin-ts
 ## Flows
 
 Currently Admin Panel supports 7 different tabs namely 
-- Student
-- Teacher
-- e-Samwaad Users
-- Shiksha Saathi Users
-- School
-- Location 
-- Grade Assessment
+- [Student](https://github.com/Samarth-HP/admin-ts/blob/master/admin/resources/student/index.ts)
+- [Teacher](https://github.com/Samarth-HP/admin-ts/blob/master/admin/resources/teacher/index.tsx)
+- [e-Samwaad Users](https://github.com/Samarth-HP/admin-ts/blob/master/admin/resources/user/esamwaad/index.ts)
+- [Shiksha Saathi Users](https://github.com/Samarth-HP/admin-ts/blob/master/admin/resources/user/shikshaSaathi/index.ts)
+- [School](https://github.com/Samarth-HP/admin-ts/blob/master/admin/resources/school/index.tsx)
+- [Location](https://github.com/Samarth-HP/admin-ts/blob/master/admin/resources/location/index.tsx) 
+- [Grade Assessment](https://github.com/Samarth-HP/admin-ts/blob/master/admin/resources/gradeAssessment/index.tsx)
 
 Each providing an interface to view data related to each of the respective tabs, modifying them, removing them as well as creating new entries along with the features mentioned in the Features section
 
