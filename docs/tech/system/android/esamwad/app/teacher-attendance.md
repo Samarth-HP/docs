@@ -35,4 +35,8 @@ The teacher attendance module application enables teachers to mark their own att
 [Teacher Attendance](https://whimsical.com/teacher-attendace-zeJuoRbxnbJESfMBFWs5T)
 
 
+### Hasura Schema
+![Teacher Attendance Schema](/static/img/esamwad/teacher_attendace_schema.png)
+
+
 

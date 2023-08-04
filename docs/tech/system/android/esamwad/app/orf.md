@@ -60,4 +60,7 @@ The ORF (Oral Reading Fluency) Practice module in the application aims to improv
 
 **The ORF Practice module efficiently uses the Workflow Manager and combines the Readalong and Quml workflows to provide tailored practice plans for students' ORF improvement. The module enables teachers to monitor and track students' progress effectively.**
 
+### Hasura Schema
+![ORF Schema](/static/img/esamwad/assessment_result_schema.png)
+
 
