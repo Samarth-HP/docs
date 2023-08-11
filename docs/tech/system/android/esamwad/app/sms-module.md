@@ -39,8 +39,11 @@ The SMS module in the e-Samwad application enables teachers to send different ty
 
 
 
-![SMS Module](/static/img/esamwad/sms_module.png)
+![SMS Module](../../../../../../static/img/esamwad/sms_module.png)
 [SMS Module](https://whimsical.com/sms-module-MGv9sGKMktr7BPhhAyMtz5)
+
+### Hasura Schema
+![SMS Module Schema](../../../../../../static/img/esamwad/sms_module_schema.png)
 
 
 

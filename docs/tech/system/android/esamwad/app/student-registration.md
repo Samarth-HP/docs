@@ -22,12 +22,12 @@ The student registration flow allows users to manage student information within 
     - The user selects multiple students for the action and submits the changes.
 
 
-![Student Regitration Module](/static/img/esamwad/student_registration.png)
+![Student Regitration Module](../../../../../../static/img/esamwad/student_registration.png)
 [Student Regitration Module](https://whimsical.com/student-registration-ECG9zBRpsE6UowNtQGYJdB)
 
 
 
-![New Student Flow](/static/img/esamwad/new_student_flow.png)
+![New Student Flow](../../../../../../static/img/esamwad/new_student_flow.png)
 [New Student Flow](https://whimsical.com/new-student-flow-28mkQdxywZ57bwFz7ws16G)
 
 

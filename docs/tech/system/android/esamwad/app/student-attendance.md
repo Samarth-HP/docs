@@ -41,11 +41,11 @@ The student attendance module in the e-Samwad application allows teachers to man
 - It uses GraphQL APIs to submit the attendance data directly to Hasura for online data storage and retrieval.
 
 
-![Student Attendance](/static/img/esamwad/student_attendance.png)
+![Student Attendance](../../../../../../static/img/esamwad/student_attendance.png)
 [Student Attendance](https://whimsical.com/student-attendance-CmBWFnT97GdJfRPCj9iJwR)
 
 
 ### Hasura Schema
-![Student Attendance Schema](/static/img/esamwad/attendace_schema.png)
+![Student Attendance Schema](../../../../../../static/img/esamwad/attendace_schema.png)
 
 

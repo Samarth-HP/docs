@@ -7,7 +7,7 @@ sidebar_position: 8
 
 The ORF (Oral Reading Fluency) Practice module in the application aims to improve students' reading fluency. The module provides a structured practice plan and utilizes the Readalong and Quml workflows to assess and enhance students' ORF skills. Here is a detailed description of the ORF Practice module:
 
-![ORF Flow](/static/img/esamwad/orf.png) 
+![ORF Flow](../../../../../../static/img/esamwad/orf.png) 
 [ORF Flow](https://whimsical.com/orf-Bbe7zrLBjMVNzWwvvew1n6) 
 
 ### Landing Page and Configuration
@@ -18,10 +18,10 @@ The ORF (Oral Reading Fluency) Practice module in the application aims to improv
 - Each state runs sequentially and provides a callback with either success or failure results.
 - The Workflow Manager loops through all states until they are executed, and it returns an array of results to the class that initiated the workflow.
 
-![Workflow Working](/static/img/esamwad/workflow_working.png) 
+![Workflow Working](../../../../../../static/img/esamwad/workflow_working.png) 
 [Workflow Working](https://whimsical.com/workflow-working-Y7K8SoDQ6efWZrnJrcusMp) 
 
-![Workflow State Lifecycle](/static/img/esamwad/workflow_state_flow.png)
+![Workflow State Lifecycle](../../../../../../static/img/esamwad/workflow_state_flow.png)
 [Workflow State Lifecycle](https://whimsical.com/workflow-state-flow-CL1ai2xf2mcMEBRGSJPdXn) 
 
 ### Combination-Specific Configurations
@@ -41,7 +41,7 @@ The ORF (Oral Reading Fluency) Practice module in the application aims to improv
     - The results are processed, and the state is marked as a success or failure based on the nipun criteria.
 
 
-![Workflow State Lifecycle](/static/img/esamwad/quml.png)
+![Workflow State Lifecycle](../../../../../../static/img/esamwad/quml.png)
 [Workflow State Lifecycle](https://whimsical.com/quml-6Ce4vpJGyoHJmeUqtYoeoh) 
 
 ### Final Result Screen and Data Submission
@@ -49,7 +49,7 @@ The ORF (Oral Reading Fluency) Practice module in the application aims to improv
 - The class renders the final result screen, displaying whether the student is nipun or not nipun based on the success or failure of the states.
 - The results are pushed to the Hasura server via GraphQL APIs for record-keeping and analysis.
 
-![Workflow State Lifecycle](/static/img/esamwad/orf_data_flow.png)
+![Workflow State Lifecycle](../../../../../../static/img/esamwad/orf_data_flow.png)
 [Workflow State Lifecycle](https://whimsical.com/orf-data-flow-Eo7XX9Gd6gCGKUP1evUwR5)
 
 ### Practice Results History
@@ -61,6 +61,6 @@ The ORF (Oral Reading Fluency) Practice module in the application aims to improv
 **The ORF Practice module efficiently uses the Workflow Manager and combines the Readalong and Quml workflows to provide tailored practice plans for students' ORF improvement. The module enables teachers to monitor and track students' progress effectively.**
 
 ### Hasura Schema
-![ORF Schema](/static/img/esamwad/assessment_result_schema.png)
+![ORF Schema](../../../../../../static/img/esamwad/assessment_result_schema.png)
 
 

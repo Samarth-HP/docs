@@ -16,5 +16,5 @@ The registration flow in the e-Samwad application allows users to create a new a
 - Approved users receive confirmation and can log in with created credentials.
 - If rejected, the user receives an update with the reason for the rejection, and they may need contact the admin for further assistance.
 
-![Regitration Flow](/static/img/esamwad/registration.png)
+![Regitration Flow](../../../../../../static/img/esamwad/registration.png)
 [Regitration Flow](https://whimsical.com/registration-Xa1Nen5oWT7rfrEVzEgJnT)
