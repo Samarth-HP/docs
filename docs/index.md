@@ -1,3 +1,9 @@
+---
+id: intro
+title: Samarth - Himachal Pradesh
+sidebar_label: Samarth - Himachal Pradesh
+sidebar_position: 1
+---
 # Samarth - Himachal Pradesh
 
 Samarth - Himachal Pradesh is a program to facilitate education in the state of Himachal Pradesh,
