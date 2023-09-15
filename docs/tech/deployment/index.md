@@ -1,13 +1,83 @@
 ---
 id: deploy
-title: Samarth - Deployment
+title: Intro
 sidebar_position: 5
 sidebar_label: Deployment
 ---
 
+Samarth deployment comprises three main components:
+
+- **Databases Deployment**
+
+  The database deployment for Samarth is divided into two key segments:
+
+  1. **eSamwad backend database deployment**
+
+     The `eSamwad backend` database stands as a critical component of the `eSamwad` application. Given its resource-intensive nature, we've taken the approach of isolating its database onto its own dedicated servers. This decision ensures that the backend functions optimally without impacting other services.
+
+  2. **Cross-cutting services' database deployment (w.r.t Samarth)**
+
+     Supporting the seamless functioning of the `eSamwad backend`, we have a set of cross-cutting services. These services, due to their lightweight and independent nature, their databases are hosted on a separate server. This segregation enhances performance and simplifies maintenance.
+
+- **Cross-Cutting Services Deployment**
+
+  Cross-cutting services are self-sufficient and do not rely on Samarth. Below is a list of these independent services.
+
+  #### Overview of Cross-Cutting Services:
+
+  1. [ODK-adapter](https://github.com/Samarth-HP/odk-uci-adapter)
+
+     - ODK-Adapter is an adapter service that parses and sends `odk` form responses as SMS via [UCI](https://github.com/samagra-comms).
+
+     - Primarily utilized for sending important SMS notifications to recipients.
+
+  2. [Doc-generator](https://github.com/Samagra-Development/Doc-Generator/tree/v2)
+
+     - The Doc-Generator is a reusable tool for generating single and bulk documents in various formats.
+
+     - Its role involves creating comprehensive reports pertaining to student-related data within the `Samarth` system.
+
+  3. [Templater](https://github.com/Samagra-Development/templater)
+
+     - Templater is a REST API service for storing, managing, and rendering templates.
+
+     - Collaborates closely with the doc-generator service to produce documents adhering to predefined formats.
+
+  4. [Yaus](https://github.com/Samagra-Development/yaus)
+
+     - Yaus is a URL Shortener designed for speed and scalability.
+
+     - Integration with doc-generator aids in the efficient management of shortened URLs linked to generated documents.
+
+  5. [FusionAuth](https://fusionauth.io/)
+
+     - FusionAuth provides authentication and authorization services.
+
+     - Essential for verifying and permitting access for various entities within the `Samarth` ecosystem.
+
+  6. [ODK-Aggregate](https://docs.getodk.org/aggregate-intro/)
+
+     - ODK Aggregate is used to store, analyze, and present XForm survey data collected using ODK Collect.
+
+     - Inclusion within the `shiksha-sathi` app facilitates efficient form filling.
+
+  7. [Airflow](https://airflow.apache.org/)
+
+     - Airflow is used for authoring, scheduling, and monitoring workflows.
+
+     - Responsible for tasks such as refreshing materialized views and scheduling SMSs to students in our `Samarth` system.
+
+- **Samarth Services Deployment**
+
+  These services are central to the functioning of Samarth and have been deployed using Jenkins. We will delve into the deployment process in the upcoming section.
+
+# Let's Start
+
+Now that we have a good understanding of the Samarth deployment components, our next step is to examine the [repository](./index.md#repo-) and its directory structure. Afterward, we will delve into the specifics of the servers, services, and their configuration within the deployment process.
+
 ## Repo 📦
 
-All the code related to Samarth deployment can be accessed through https://github.com/Samarth-HP/samarth-devops/. This repository encompasses all the essential components required for deploying the `Samarth` system.
+All the code related to Samarth deployment can be accessed through https://github.com/Samarth-HP/samarth-devops/. This repository encompasses all the essentials required for deploying the `Samarth` system.
 
 ## Directory Structure 📃
 
@@ -27,7 +97,7 @@ All the code related to Samarth deployment can be accessed through https://githu
 
 - **docker-compose**
 
-  In this directory, you'll find Dockerfiles/docker-compose files for databases/services, both for the `eSamwad` backend and the [cross-cutting services](./current-infra.md#overview-of-cross-cutting-services), along with some standalone services.
+  In this directory, you'll find Dockerfiles/docker-compose files for databases/services, both for the `eSamwad` backend and the [cross-cutting services](./index.md#overview-of-cross-cutting-services), along with some standalone services.
 
 - **docs**
 

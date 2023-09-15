@@ -4,63 +4,7 @@ title: Samarth Deployment Details
 sidebar_label: Current Infrastructure
 ---
 
-# Samarth deployment
-
-The database deployment process for Samarth is organized into two distinct parts:
-
-1. **eSamwad backend database deployment**
-
-   The `eSamwad backend` database stands as a critical component of the `eSamwad` application. Given its resource-intensive nature, we've taken the approach of isolating its database onto its own dedicated servers. This decision ensures that the backend functions optimally without impacting other services.
-
-2. **Cross-cutting services deployment (with respect to Samarth)**
-
-   Supporting the seamless functioning of the `eSamwad backend`, we have a set of cross-cutting services. These services, due to their lightweight and independent nature, their databases are hosted on a separate server. This segregation enhances performance and simplifies maintenance.
-
-#### Overview of Cross-Cutting Services:
-
-1. [ODK-adapter](https://github.com/Samarth-HP/odk-uci-adapter)
-
-   - ODK-Adapter is an adapter service that parses and sends `odk` form responses as SMS via [UCI](https://github.com/samagra-comms).
-
-   - Primarily utilized for sending important SMS notifications to recipients.
-
-2. [Doc-generator](https://github.com/Samagra-Development/Doc-Generator/tree/v2)
-
-   - The Doc-Generator is a reusable tool for generating single and bulk documents in various formats.
-
-   - Its role involves creating comprehensive reports pertaining to student-related data within the `Samarth` system.
-
-3. [Templater](https://github.com/Samagra-Development/templater)
-
-   - Templater is a REST API service for storing, managing, and rendering templates.
-
-   - Collaborates closely with the doc-generator service to produce documents adhering to predefined formats.
-
-4. [Yaus](https://github.com/Samagra-Development/yaus)
-
-   - Yaus is a URL Shortener designed for speed and scalability.
-
-   - Integration with doc-generator aids in the efficient management of shortened URLs linked to generated documents.
-
-5. [FusionAuth](https://fusionauth.io/)
-
-   - FusionAuth provides authentication and authorization services.
-
-   - Essential for verifying and permitting access for various entities within the `Samarth` ecosystem.
-
-6. [ODK-Aggregate](https://docs.getodk.org/aggregate-intro/)
-
-   - ODK Aggregate is used to store, analyze, and present XForm survey data collected using ODK Collect.
-
-   - Inclusion within the `shiksha-sathi` app facilitates efficient form filling.
-
-7. [Airflow](https://airflow.apache.org/)
-
-   - Airflow is used for authoring, scheduling, and monitoring workflows.
-
-   - Responsible for tasks such as refreshing materialized views and scheduling SMSs to students in our `Samarth` system.
-
-## Infrastructure Overview 📖
+# Infrastructure Overview 📖
 
 As a concrete illustration, let's examine six servers constituting our deployment environment:
 
